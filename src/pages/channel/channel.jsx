@@ -63,7 +63,7 @@ function Channel() {
                             </li>
                             <li>
                                 <button className="btn-search ">
-                                    <img src={Lupa} alt="seach icon" />
+                                    <img src={Lupa} alt="search-icon" />
                                 </button>
                             </li>
                         </ul>
@@ -73,7 +73,7 @@ function Channel() {
                             <Link to="/video">
                                 <img
                                     src="https://picsum.photos/540/250"
-                                    alt="img"
+                                    alt="pic"
                                     className="section__img"
                                     width="490"
                                     height="200"
@@ -102,7 +102,7 @@ function Channel() {
                             <li>
                                 <img
                                     src={userRecomended}
-                                    alt="img user"
+                                    alt="pic-user"
                                     width="50"
                                     height="50"
                                 />
@@ -111,7 +111,7 @@ function Channel() {
                             <li>
                                 <img
                                     src={userRecomended}
-                                    alt="img user"
+                                    alt="pic-user"
                                     width="50"
                                     height="50"
                                 />
@@ -120,7 +120,7 @@ function Channel() {
                             <li>
                                 <img
                                     src={userRecomended}
-                                    alt="img user"
+                                    alt="pic-user"
                                     width="50"
                                     height="50"
                                 />
