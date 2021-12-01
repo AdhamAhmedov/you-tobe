@@ -1,6 +1,5 @@
 import "../channel/channel.scss";
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 //component
@@ -31,7 +30,7 @@ function Channel() {
                 <div className="channel-wrapper-2">
                     <div className="channel-top"></div>
                     <div className="user-wrapper">
-                        <img src={UserDollie} alt="img" width="80" height="80" />
+                        <img src={UserDollie} alt="pic" width="80" height="80" />
                         <div className="user-box">
                             <h4 className="box__user">Margaret Phelps</h4>
                             <span>245K subscribed</span>
