@@ -113,37 +113,37 @@ function Sidebar() {
 
             <ul className="sidebar__list-bottom list">
                 <li className="list-bottom__item item">
-                    <Link to="/" className="sidebar__link" onClick={handleAddClass}>
+                    <Link to="/channel" className="sidebar__link" onClick={handleAddClass}>
                         <img src={user_1} alt="user" />
                         <span className="span">Gussie Singleton</span>
                     </Link>
                 </li>
                 <li className="list-bottom__item item">
-                    <Link to="/" className="sidebar__link" onClick={handleAddClass}>
+                    <Link to="/channel" className="sidebar__link" onClick={handleAddClass}>
                         <img src={user_1} alt="user" />
                         <span className="span">Nora Francis</span>
                     </Link>
                 </li>
                 <li className="list-bottom__item item">
-                    <Link to="/" className="sidebar__link" onClick={handleAddClass}>
+                    <Link to="/channel" className="sidebar__link" onClick={handleAddClass}>
                         <img src={user_1} alt="user" />
                         <span className="span">Belle Briggs</span>
                     </Link>
                 </li>
                 <li className="list-bottom__item item">
-                    <Link to="/" className="sidebar__link" onClick={handleAddClass}>
+                    <Link to="/channel" className="sidebar__link" onClick={handleAddClass}>
                         <img src={user_1} alt="user" />
                         <span className="span">Eunice Cortez</span>
                     </Link>
                 </li>
                 <li className="list-bottom__item item">
-                    <Link to="/" className="sidebar__link" onClick={handleAddClass}>
+                    <Link to="/channel" className="sidebar__link" onClick={handleAddClass}>
                         <img src={user_1} alt="user" />
                         <span className="span">Emma Hanson</span>
                     </Link>
                 </li>
                 <li className="list-bottom__item item">
-                    <Link to="/" className="sidebar__link" onClick={handleAddClass}>
+                    <Link to="/channel" className="sidebar__link" onClick={handleAddClass}>
                         <img src={user_1} alt="user" />
                         <span className="span">Leah Berry</span>
                     </Link>

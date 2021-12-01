@@ -1,22 +1,23 @@
-
+import { Link } from "react-router-dom";
 import "../home-middle/home_middle.scss";
 
 
 
-function HomeMiddle() {
+function HomeMiddle({ title }) {
 
     return (
         <div className='home-middle'>
 
 
-            <li className="home-middle__item">
-                <img src="https://picsum.photos/540/250" alt="img" className="item__img" width="540" height="250" />
-                <h4 className="item__userName">Dude You Re Getting A Telescope</h4>
+            <Link className="link" to="/video"> <li className="home-bottom__item">
+                <img src="https://picsum.photos/540/250" alt="img" className="item__img" width="250" height="150" />
+                <h4 className="bottom__item__userName">{title}</h4>
                 <div className="box">
-                    <p className="item__views">34k views  ·  5 months ago</p>
-                    <p className="item__name">Gussie French</p>
+                    <p className="bottom__item__views">240k views  ·  4 months ago</p>
+                    <p className="bottom__item__name">Food & Drink</p>
                 </div>
             </li>
+            </Link>
 
 
 

@@ -1,0 +1,28 @@
+.list__item {
+  margin-bottom: 25px;
+  list-style: none;
+
+  h4 {
+    margin: 0;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    color: #19202c;
+  }
+
+  p {
+    margin: 0;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #c2c2c2;
+  }
+}
+
+.list-item {
+  text-decoration: none;
+}

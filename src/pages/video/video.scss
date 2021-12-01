@@ -1,0 +1,147 @@
+.video-page__wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 580px;
+  overflow: auto;
+}
+
+.left-box {
+  //   width: 1300px;
+  padding-left: 80px;
+}
+
+.wrapper-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video {
+  width: 1000px;
+  border-radius: 14px;
+}
+
+.video-title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  color: #192646;
+}
+
+.view {
+  width: 110px;
+  margin-right: auto;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #c2c2c2;
+}
+
+.btn-like {
+  margin-right: 10px;
+  width: 80px;
+  height: 30px;
+  background: #ebebeb;
+  mix-blend-mode: normal;
+  border: none;
+  border-radius: 20px;
+
+  span {
+    margin-left: 5px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #192646;
+  }
+}
+
+.video-box-bottom {
+  display: flex;
+  margin-top: 50px;
+}
+
+.box-center {
+  margin-right: auto;
+  margin-left: 10px;
+  width: 500px;
+  h5 {
+    margin: 0;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    color: #19202c;
+  }
+
+  span {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #c2c2c2;
+  }
+
+  p {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+  }
+}
+
+.next-btn {
+  border: none;
+  margin-right: 50px;
+  background-color: transparent;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  color: #19202c;
+}
+
+.autoplay-btn {
+  border: none;
+  background-color: transparent;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #19202c;
+}
+
+.right-box {
+  width: 350px;
+  padding-right: 60px;
+}
+
+.right-box__box {
+  width: 350px;
+}
+
+.right-box__list {
+  padding: 0;
+  list-style: none;
+}
+
+.right-video__list {
+  height: 800px;
+  overflow: auto;
+}

@@ -2,7 +2,6 @@ import "./Home.scss";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
-import Header from "../../components/header/Header";
 import Sidebar from "../../components/sidebar/Sidebar";
 import HomeTop from "../../components/home_top/home_top";
 import HomeMiddle from "../../components/home-middle/home_middle";
@@ -20,7 +19,7 @@ function Home() {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
-        fetch('https://jsonplaceholder.typicode.com/photos?albumId=50')
+        fetch('https://jsonplaceholder.typicode.com/photos?albumId=1')
             .then((response) => response.json())
             .then((data) => setItems(data));
     }, []);
@@ -29,7 +28,7 @@ function Home() {
     return (
 
         <div>
-            < Header />
+
             <div className="home__sidebar-wrapper">
                 < Sidebar />
 
@@ -55,7 +54,6 @@ function Home() {
                             ))}
                         </ul>
                     )}
-
                     {/* ================home-middle=================== */}
                     <div className="top-wrapper">
                         <h3 className="recomended">Recommended</h3>
